@@ -33,3 +33,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+//WHAT I ADDED
+node_modules
+.next
+.env.local
+.env
+dist
+build
