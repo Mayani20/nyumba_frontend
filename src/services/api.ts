@@ -13,5 +13,6 @@ export const api = {
    getLanding: (params?: { location?: string }) =>
     axios.get("/api/tenant/properties/landing", { params }),
 
-
+getPropertyImages: (ids: number[]) =>
+    axios.post("/api/property-images/bulk", { ids }),
 };
